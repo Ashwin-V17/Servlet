@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com</groupId>
-  <artifactId>HttpServlet</artifactId>
+  <artifactId>HttpAttributes</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>HttpServlet Maven Webapp</name>
+  <name>HttpAttributes Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -26,8 +26,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    
-                <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+                  <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 <dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>javax.servlet-api</artifactId>
@@ -49,11 +48,11 @@
     <artifactId>hibernate-core</artifactId>
     <version>5.6.15.Final</version>
 </dependency>
-    
+
   </dependencies>
 
   <build>
-    <finalName>HttpServlet</finalName>
+    <finalName>HttpAttributes</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
